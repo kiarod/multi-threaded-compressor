@@ -4,6 +4,7 @@ In this project I implemented a multithreaded compressor in Java.
 
 # Performance Analysis
 
+```
 lshw -short
 WARNING: you should run this program as super-user.
 H/W path  Device    Class      Description
@@ -44,6 +45,7 @@ L2 cache:            1024K
 L3 cache:            16896K
 NUMA node0 CPU(s):   0-3
 Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ibrs ibpb stibp fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt avx512cd avx512bw avx512vl xsaveopt xsavec xsaves
+```
 
 ## Performance Comparison
 programs tested:

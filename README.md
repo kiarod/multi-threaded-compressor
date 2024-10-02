@@ -7,7 +7,7 @@ In this project I implemented a multithreaded compressor in Java.
 lshw -short
 WARNING: you should run this program as super-user.
 H/W path  Device    Class      Description
-==========================================
+
                     system     Computer
 /0                  bus        Motherboard
 /0/0                memory     64GiB System memory
